@@ -1,6 +1,7 @@
-import Layout from "../pages/Layout";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -20,7 +21,7 @@ const LoginPage = () => {
 
   return (
     <div className="font-mono">
-      <Layout></Layout>
+      <Header></Header>
       <div className="flex justify-center items-center h-screen">
         <form
           onSubmit={handleSubmit}
@@ -79,6 +80,7 @@ const LoginPage = () => {
           </div>
         </form>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

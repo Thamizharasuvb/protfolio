@@ -1,13 +1,14 @@
 import Header from "./Header";
 import Footer from "./Footer";
-function Profile() {
+
+function Project() {
   return (
     <div>
       <Header></Header>
-      <div>profile details</div>
+      <div>Projects</div>
       <Footer></Footer>
     </div>
   );
 }
 
-export default Profile;
+export default Project;

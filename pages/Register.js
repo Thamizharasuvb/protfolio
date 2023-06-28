@@ -1,5 +1,6 @@
-import Layout from "../pages/Layout";
+import Header from "./Header";
 import { useState } from "react";
+import Footer from "./Footer";
 
 const RegisterPage = () => {
   const [name, setName] = useState("");
@@ -32,7 +33,7 @@ const RegisterPage = () => {
 
   return (
     <div>
-      <Layout></Layout>
+      <Header></Header>
       <div className="flex justify-center items-center h-screen">
         <form
           onSubmit={handleSubmit}
@@ -113,6 +114,7 @@ const RegisterPage = () => {
           </div>
         </form>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
