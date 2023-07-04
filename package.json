@@ -1,9 +1,12 @@
 {
   "name": "nextln",
   "version": "0.1.0",
+  "homepage": "https://thamizharasuvb.github.io/portfolio",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
