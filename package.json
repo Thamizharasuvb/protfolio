@@ -4,7 +4,7 @@
   "homepage": "https://thamizharasuvb.github.io/portfolio",
   "private": true,
   "scripts": {
-    "dev": "next dev
+    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "next build",
